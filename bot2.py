@@ -29,7 +29,8 @@ async def bot_message(message: types.Message):
 Дипломированный специалист в области фитнеса.""")
 
 	elif message.text == '🏅Персональная тренировка':
-		await bot.send_message(message.from_user.id, """🎯 Персональная тренировка в зале - 1 час
+		await bot.send_message(message.from_user.id, """🎯 Персональная тренировка в зале
+
 ✅Стоимость:
 
 1 тренировка 3000₽
@@ -37,7 +38,7 @@ async def bot_message(message: types.Message):
 10 тренировок 25000₽""")
 
 	elif message.text == '🖥Онлайн-ведение':
-		await bot.send_message(message.from_user.id, """🎯 Онлайн ведение
+		await bot.send_message(message.from_user.id, """🎯 Онлайн-ведение
 
 ✅Стоимость: 10000₽ в месяц
 
